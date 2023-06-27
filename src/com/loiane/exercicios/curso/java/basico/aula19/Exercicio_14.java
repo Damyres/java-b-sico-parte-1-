@@ -10,7 +10,7 @@ public class Exercicio_14 {
 
         Scanner leitor = new Scanner(System.in);
 
-        int [] vetorA = new int [3];
+        int [] vetorA = new int [10];
 
 
         for (int i=0; i<vetorA.length; i++){
@@ -38,6 +38,6 @@ public class Exercicio_14 {
 
         media = soma/vetorA.length;
         System.out.println();
-        System.out.print("A média dos valores é: " + media);
+        System.out.print("A média dos valores é: " + df.format(media));
     }
 }
