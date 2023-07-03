@@ -10,6 +10,7 @@ public class PrincipalCarro {
 
         Carro picap = new Carro("Chevrolet", "Montana", 20, 60, 30);
         picap.exibirAutonomia();
+        System.out.println("Calculando quantidade de combustivel " + picap.calcularCombustivel(10));
         System.out.println("Método obter autonomia foi chamado! " + picap.obterAutonomia());
         System.out.println(picap.toString());
         System.out.println();

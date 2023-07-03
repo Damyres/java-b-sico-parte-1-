@@ -25,6 +25,11 @@ public class Carro {
     double obterAutonomia() {
         return (capCombustivel * consumoCombustivel);
     }
+    double calcularCombustivel(double km){
+        double qtdCombustivel = km/consumoCombustivel;
+        return qtdCombustivel;
+    }
+
 
     public String toString(){
         return "Marca: " + this.marca + "\n" + "Modelo: " + this.modelo + "\n"
