@@ -1,6 +1,6 @@
 package com.loiane.cursojava.aula33;
 
-public class Exercico {
+public class Exercicio {
     public static void main(String[] args) {
 
         MinhaCalculadora cal = new MinhaCalculadora();
